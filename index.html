@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREAMING - Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Roboto:wght@400;700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-sm sticky-top p-1 pb-3">
+        <div class="container-fluid">
+            <h1 class="navbar-brand fs-1 m-0 p-0">STREAMING</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-theme="dark" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold text-center">
+                        <a href="" class="nav-link mb-fs-5">ENTRAR</a>
+                    </li>
+                    <li class="nav-item fw-bold botao-li text-center">
+                        <a href="" class="nav-link mb-fs-5 botao-a">ASSINE AGORA</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="propagandas">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 bg-hbo pt-5 pb-5 d-flex">
+                    <h2 class="title-promocao text-center fw-bold">ÚLTIMOS DIAS</h2>
+                    <h3 class="title-promocao text-center">APROVEITE X MESES POR APENAS</h3>
+                    <div class="preco">
+                        <div class="container-triangle">
+                            <div class="triangle-border"></div>
+                            <div class="triangle-inner"></div>
+                            <div class="triangle-content">
+                                <h6 class="fs-4">BLACK FRIDAY!</h6>
+                            </div>
+                        </div>
+                        <h3 class="preco text-center fw-bold">R$9<span class="preco-barra fw-bold">/</span><span class="preco-centavos fw-bold">,90 MÊS<span class="preco-asterisco">*</span></span></h3>
+                    </div>
+                    <button class="btn btn-promocao">ASSINE AGORA</button>
+                    <h6 class="title-termos fw-bold text-center">Oferta extendida até X de X, X.</h6>
+                    <h6 class="title-termos text-center">*Válido de X até X de X somente no plano Multitelas mensal. <span class="title-termos-span" data-bs-toggle="modal" data-bs-target="#title-termos-span">Termos se aplicam</span></h6>
+                    <div class="modal" id="title-termos-span" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">TERMOS DA PROMOÇÃO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>1- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>2- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>3- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>4- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>5- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>6- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                    <p>7- Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eveniet odio recusandae expedita tempora ipsum autem neque laboriosam voluptatem id fugiat assumenda debitis nisi nam ad. Dolor modi accusantium optio?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 p-0 rounded">
+                    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item carousel-item-primeiro active" data-bs-interval="3000">
+                                <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cartaz com vários filmes" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h4>FILME 1</h4>
+                                    <P>DISPONÍVEL AGORA</P>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-item-primeiro" data-bs-interval="3000">
+                                <img src="https://images.unsplash.com/photo-1580130775562-0ef92da028de?q=80&w=1050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cartaz de um filme" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h4 class="title-propaganda">FILME 2</h4>
+                                    <p>EM BREVE</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-item-primeiro" data-bs-interval="3000">
+                                <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cartaz de um filme" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h4 class="title-propaganda">FILME 3</h4>
+                                    <p>DISPONÍVEL AGORA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="planos" class="planos pt-5 pb-5">
+        <div class="container pt-4 info-planos">
+            <h2 class="text-center">Escolha seu plano Multitelas</h2>
+            <h5 class="text-center">O QUE ESTÁ INCLUSO?</h5>
+            <ul>
+                <div class="container">
+                    <div class="row pt-4">
+                        <div class="col-md-4 text-center">
+                            <li class="li-planos"><p class="p-planos">Aproveite em todos os seus dispositivos.</p></li>
+                            <li class="li-planos"><p class="p-planos">Tenha conteúdo em alta definição, com qualidade 4K.</p></li>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <li class="li-planos"><p class="p-planos">Chromecast e Airplay disponíveis.</p></li>
+                            <li class="li-planos"><p class="p-planos">Baixe suas séries e filmes favoritos, assista onde e quando quiser.</p></li>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <li class="li-planos"><p class="p-planos">Assista em até 3 telas ao mesmo tempo.</p></li>
+                            <li class="li-planos"><p class="p-planos">Crie até 5 perfis diferentes.</p></li>
+                        </div>
+                    </div>
+                    <div class="row pt-4 pb-4 planos">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body d-flex justify-content-center flex-column">
+                                    <h6 class="text-center fw-bold">3 meses</h6>
+                                    <h2 class="card-title text-center fw-bold preco-planos">
+                                        R$ 74,90
+                                    </h2>
+                                    <h6 class="text-center">Igual a R$ 24,97 por mês</h6>
+                                    <button class="btn btn-planos">ESCOLHA O PLANO TRIMESTRIAL</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-principal">
+                                <div class="card-body d-flex justify-content-center flex-column">
+                                    <h6 class="text-center fw-bold">12 meses</h6>
+                                    <h2 class="card-title text-center fw-bold preco-planos">
+                                        R$ 239,90
+                                    </h2>
+                                    <h6 class="text-center">Igual a R$ 19,99 por mês</h6>
+                                    <button class="btn btn-planos">ESCOLHA O PLANO ANUAL</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body d-flex justify-content-center flex-column">
+                                    <h6 class="text-center fw-bold">1 mês</h6>
+                                    <h2 class="card-title text-center fw-bold preco-planos">
+                                        R$ 34,90
+                                    </h2>
+                                    <h6 class="text-center">Igual a R$ 34,90 por mês</h6>
+                                    <button class="btn btn-planos">ESCOLHA O PLANO MENSAL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="title-termos text-center">*Necessário pagamento antecipado. Economia baseada no preço do plano multitelas anual comparado ao preço do plano multitelas mensal durante 12 meses, excluindo impostos. <span class="title-termos-span" data-bs-toggle="modal" data-bs-target="#title-termos-span">Termos se aplicam</span></p>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section id="estreias" class="pt-5 pb-5">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="estreias-texto text-center">Estreias que vão se transformar nos seus novos favoritos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel" id="carousel-estreias" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <div class="row pt-4 estreias-row">
+                                    <div class="col-md-5">
+                                        <h3 class="estreias-texto">Homem-Aranha: Através do Aranhaverso</h3>
+                                        <p class="estreias-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide</p>
+                                        <div class="bolinhas-estreia d-flex justify-content-between">
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">SHAMEIK MOORE</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É MILES MORALES</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">HAILEE STEINFELD</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É GWEN STACY</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">OSCAR ISAAC</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É MIGUEL O'HARA</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 estreias-img">
+                                        <img src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="row pt-4 estreias-row">
+                                    <div class="col-md-5">
+                                        <h3 class="estreias-texto">A Freira 2</h3>
+                                        <p class="estreias-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide</p>
+                                        <div class="bolinhas-estreia d-flex justify-content-between">
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">TAISSA FARMIGA</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É IRMÃ IRENE</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">ANNA POPPLEWELL</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É KATE</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">BONNIE AARONS</h6>
+                                                <h6 class="bolinha-pseudonome text-center">A FREIRA</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 estreias-img">
+                                        <img src="https://images.unsplash.com/photo-1551815738-a6fe8bf72fe1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="row pt-4 estreias-row">
+                                    <div class="col-md-5">
+                                        <h3 class="estreias-texto">Julia T2</h3>
+                                        <p class="estreias-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem quide</p>
+                                        <div class="bolinhas-estreia d-flex justify-content-between">
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">SARAH LANCASHIRE</h6>
+                                                <h6 class="bolinha-pseudonome text-center">JULIA CHILD</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">BRITTANY BRADFORD</h6>
+                                                <h6 class="bolinha-pseudonome text-center">É ALICE NAMAN</h6>
+                                            </div>
+                                            <div class="bolinha-conjunto d-flex flex-column">
+                                                <div class="bolinha mb-3 mt-3"></div>
+                                                <h6 class="bolinha-none text-center">DAVID HYDE PIERCE</h6>
+                                                <h6 class="bolinha-pseudonome text-center">PAUL CHILD</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 estreias-img">
+                                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="estreias-botao" class="pt-5 pb-5">
+        <div class="container botao-estrais">
+            <div class="row">
+                <button class="btn btn-estreias">ASSINE AGORA</button>
+            </div>
+        </div>
+    </section>
+    <section id="eps-gratis" class="pt-5 pb-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 pb-5">
+                    <h2 class="text-eps-gratis text-center">Episódios grátis da <span class="navbar-brand">STRAMING</span>, sem precisar de uma assinatura</h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb-4">
+                                <div class="card card-eps-gratis border-0 shadow">
+                                    <img src="https://images.unsplash.com/photo-1598837064766-722df8966839?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                                    <div class="card-img-overlay">
+                                        <div class="card-title cards-eps-gratis text-center d-flex flex-column">
+                                            <h4 class="fw-bold fs-1">EUPHORIA</h4>
+                                            <h4 class="fw-bold fs-4 h4-eps-gratis">ASSISTIR GRÁTIS</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card card-eps-gratis border-0 shadow">
+                                    <img src="https://images.unsplash.com/photo-1543807535-eceef0bc6599?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                                    <div class="card-img-overlay">
+                                        <div class="card-title cards-eps-gratis text-center d-flex flex-column">
+                                            <h4 class="fw-bold fs-1">FRIENDS</h4>
+                                            <h4 class="fw-bold fs-4 h4-eps-gratis">ASSISTIR GRÁTIS</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card card-eps-gratis border-0 shadow">
+                                    <img src="https://images.unsplash.com/photo-1671211085251-c49156a49621?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                                    <div class="card-img-overlay">
+                                        <div class="card-title cards-eps-gratis text-center d-flex flex-column">
+                                            <h4 class="fw-bold fs-1">THE GILDED AGE</h4>
+                                            <h4 class="fw-bold fs-4 h4-eps-gratis">ASSISTIR GRÁTIS</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card card-eps-gratis border-0 shadow">
+                                    <img src="https://images.unsplash.com/photo-1548154030-e69e8e64177d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="card-img-top">
+                                    <div class="card-img-overlay">
+                                        <div class="card-title cards-eps-gratis text-center d-flex flex-column">
+                                            <h4 class="fw-bold fs-1">GOT</h4>
+                                            <h4 class="fw-bold fs-4 h4-eps-gratis">ASSISTIR GRÁTIS</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Inicializador da Owl Carousel (o que possibilita a criação de um carrossel com cards) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

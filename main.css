@@ -80,6 +80,10 @@ header {
     right: 1.3rem;
 }
 
+.blackfriday {
+    font-size: 1.5rem;
+}
+
 
 .preco-asterisco {
     color: #b535f6;
@@ -226,10 +230,33 @@ header {
 }
 
 .li-planos {
-    color: #8A0FDA;
+    color: rgb(138, 15, 219);
+}
+
+.planos-card {
+    color: #fff;
+    display: flex;
+    border: none;
+    height: 30vh;
+    background: linear-gradient(180deg,rgba(55, 15, 90, 0.12) 0%,rgba(55, 15, 90, 1) 100%);
 }
 
 .p-planos {
+    color: #fff;
+}
+
+.preco-planos {
+    font-size: 4rem;
+}
+
+.btn-planos {
+    background-color: rgb(138, 15, 219);
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn-planos:hover {
+    background-color: rgb(138, 15, 219);
     color: #fff;
 }
 
@@ -336,4 +363,212 @@ header {
 
 .h4-eps-gratis {
     color: #b535f6;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .propagandas-md {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bg-hbo {
+        background: url(./bg-hbo.png);
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .preco {
+        font-size: 10rem;
+        display: grid;
+        grid-template-columns: 1rem 15rem 1rem 1rem;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .preco-barra,
+    .preco-centavos {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .preco-barra {
+        position: relative;
+        top: 3.5rem;
+        right: -8.5rem;
+    }
+    
+    .preco-centavos {
+        position: relative;
+        top: 2.3rem;
+        right: -1.5rem;
+    }
+    
+    .triangle-border {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        background: #fff;
+        border-top-right-radius: 30%;
+        transform: rotate(35deg) skewX(-22.5deg) scale(1, .866);
+        -webkit-box-shadow:0px 10px 25px 10px rgba(62,66,66,1);
+        -moz-box-shadow: 0px 10px 25px 10px rgba(62,66,66,1);
+        box-shadow: 0px 10px 25px 10px rgba(62,66,66,1);
+    }
+    .triangle-inner {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background: #5A2494;
+        border-top-right-radius: 30%;
+        transform: rotate(35deg) skewX(-22.5deg) scale(1, .866);
+    }
+        
+    .preco .triangle-inner {
+        top: -0.5rem;
+        left: 1px;
+    }
+    
+    .triangle-content {
+        position: relative;
+        display: flex;
+        top: -4rem;
+        margin: 0;
+        right: .5rem;
+    }
+    
+    .triangle-content h6 {
+        font-family: 'Vina Sans', sans-serif;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .planos-col{
+        width: 100%;
+    }
+
+    .card-principal {
+        margin: 2rem 0;
+    }
+    
+    .planos-card {
+        color: #fff;
+        border: none;
+        height: 20vh;
+        background: linear-gradient(180deg,rgba(55, 15, 90, 0.12) 0%,rgba(55, 15, 90, 1) 100%);
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .propagandas-md {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg-hbo {
+        background: url(./bg-hbo.png);
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .preco {
+        font-size: 8rem;
+        display: grid;
+        grid-template-columns: 1rem 10rem 1rem 1rem;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .preco-barra,
+    .preco-centavos {
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .preco-barra {
+        position: relative;
+        top: 3.3rem;
+        right: -7.5rem;
+    }
+    
+    .preco-centavos {
+        position: relative;
+        top: 2.7rem;
+        right: -2.8rem;
+    }
+    
+    .triangle-border {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-top-right-radius: 30%;
+        transform: rotate(35deg) skewX(-22.5deg) scale(1, .866);
+        -webkit-box-shadow:0px 10px 25px 10px rgba(62,66,66,1);
+        -moz-box-shadow: 0px 10px 25px 10px rgba(62,66,66,1);
+        box-shadow: 0px 10px 25px 10px rgba(62,66,66,1);
+    }
+    .triangle-inner {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: #5A2494;
+        border-top-right-radius: 30%;
+        transform: rotate(35deg) skewX(-22.5deg) scale(1, .866);
+    }
+        
+    .preco .triangle-inner {
+        top: .2rem;
+        left: 1px;
+    }
+    
+    .triangle-content {
+        position: relative;
+        display: flex;
+        top: -2.3rem;
+        margin: 0;
+        right: .2rem;
+    }
+    
+    .triangle-content h6 {
+        font-family: 'Vina Sans', sans-serif;
+    } 
+
+    .carousel {
+        display: none;
+    }
+    .blackfriday {
+        font-size: 1rem;
+    }
+
+    .planos-col{
+        width: 100%;
+    }
+
+    .card-principal {
+        margin: 2rem 0;
+    }
+    
+    .planos-card {
+        color: #fff;
+        border: none;
+        height: 50vh;
+        background: linear-gradient(180deg,rgba(55, 15, 90, 0.12) 0%,rgba(55, 15, 90, 1) 100%);
+    }
+
+    .btn-planos {
+        font-size: 14px;
+    }
 }
